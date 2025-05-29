@@ -3,6 +3,8 @@
 Wasabi OS上で動作するRustアプリケーションのサンプルプロジェクトです。
 
 ## 概要
+『［作って学ぶ］ブラウザのしくみ──HTTP、HTML、CSS、JavaScriptの裏側』で解説されているソースコード
+https://github.com/d0iasm/sababook
 
 sabaは、[Wasabi OS](https://github.com/hikalium/wasabi)上で実行されるno_stdなRustアプリケーションです。noliライブラリを使用してシステムコールを実行し、基本的な入出力操作を行います。
 
