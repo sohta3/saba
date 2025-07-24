@@ -9,10 +9,11 @@ default-run = "saba"
 
 [features]
 default = ["wasabi"]
+wasabi = ["dep:net_wasabi", "dep:noli"]
 std = ["dep:net_wasabi", "dep:noli"]
 
 [[bin]]
-default = "saba"
+name = "saba"
 path = "src/main.rs"
 required-features = ["wasabi"]
 
